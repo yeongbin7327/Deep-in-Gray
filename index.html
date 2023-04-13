@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep in gray</title>
+
+    <script src=".//header.js"></script>
+    <script src="./rightmenu.js"></script>
+    <script src="slider.js"></script>
+
+    <link rel="stylesheet" href="./indexsection.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header(final).css">
+    <link rel="stylesheet" href="./rightmenu.css">
+    <link href="slide.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--헤더-->
+    <header>
+        <!--타이틀 영역-->
+        <div class="title">
+            <a href="./index.html">DEEP IN GRAY</a>
+        </div>
+        <!--네브 영역-->
+        <div class="nav">
+            <ul class="menu_wrap">
+                <li class="menu">
+                    <label class="buger" for="" onclick="aa()" >
+                        <span class="ham"></span>
+                        <span class="ham"></span>
+                        <span class="ham"></span>
+                    </label>
+                </li>
+                <li class="menu"> <a href="">Outer</a>
+                    <ul>
+                        <li> <a href="#">후드집업</a></li>
+                        <li> <a href="">블루종</a></li>
+                        <li> <a href="">코트</a></li>
+                        <li> <a href="">트래커 자킷</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">Tops</a>
+                    <ul>
+                        <li><a href="">반소매 티셔츠</a></li>
+                        <li><a href="">긴소매 티셔츠</a></li>
+                        <li><a href="">민소매 티셔츠</a></li>
+                        <li><a href="">후드 티셔츠</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">Jeans</a>
+                    <ul>
+                        <li><a href="">데님 팬츠</a></li>
+                        <li><a href="">숏 팬츠</a></li>
+                        <li><a href="">코트 팬츠</a></li>
+                        <li><a href="">트레이닝/조거팬츠</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">Pants</a>
+                    <ul>
+                        <li><a href="">데님 팬츠</a></li>
+                        <li><a href="">숏 팬츠</a></li>
+                        <li><a href="">코트 팬츠</a></li>
+                        <li><a href="">트레이닝/조거팬츠</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">Acc</a>
+                    <ul>
+                        <li><a href="">glasses</a></li>
+                        <li><a href="">bag</a></li>
+                        <li><a href="">cap</a></li>
+                        <li><a href="">etc.</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">Sale</a>
+                    <ul>
+                        <li><a href="">SPRING SALE</a></li>
+                        <li><a href="">SUMMER SALE</a></li>
+                        <li><a href="">FALL SALE</a></li>
+                        <li><a href="">WINTER SALE</a></li>
+                    </ul>
+                </li>
+                <li class="menu"> <a href="">COMMUNITY</a>
+                    <ul>
+                        <li><a href="">NOICE</a></li>
+                        <li><a href="">Q&A</a></li>
+                        <li><a href="">REVIEW</a></li>
+                        <li><a href="">EVENT</a></li>
+                    </ul>
+                </li>
+                <li class="myp"> <a href="">MY PAGE</a>
+                    <ul>
+                        <li><a href="">관심상품</a></li>
+                        <li><a href="">주문조회</a></li>
+                        <li><a href="">정보수정</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!--히든 메뉴 영역-->
+        <div class="hidden_wrap" id="qqq">
+            <!--히든메뉴 닫기 버튼 영역-->
+            <div class="close">
+                <label for="" onclick="ee11()">
+                    <img src="./img/close.png" alt="">
+                </label>
+            </div>
+            <div class="hidden_munu">
+                <!--히든메뉴 top-->
+                <div class="top">
+                    <a href=""><img src="./img/bookmark.png" alt=""></a>
+                    <a href=""><img src="./img/desktop.png" alt=""></a>
+                    <a href=""><img src="./img/instargram.png" alt=""></a>
+                    <a href=""><img src="./img/delivery.png" alt=""></a>
+                </div>
+                <!--히든메뉴 mid-->
+                <div class="mid">
+                    <div class="category">
+                        <a href="" class="main"> <p>OUTER</p></a>
+                        <a href=""> 후드집업</a> <br>
+                        <a href="">블루종</a> <br>
+                        <a href="">코트</a> <br>
+                        <a href="">트래커 자킷</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>TOPS</P></a>
+                        <a href="">반소매 티셔츠</a> <br>
+                        <a href="">긴소매 티셔츠</a><br>
+                        <a href="">민소매 티셔츠</a><br>
+                        <a href="">후드 티셔츠</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>JEANS</P></a>
+                        <a href="">데님 팬츠</a><br>
+                        <a href="">숏 팬츠</a><br>
+                        <a href="">코트 팬츠</a><br>
+                        <a href="">트레이닝/조거팬츠</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>PANTS</P></a>
+                        <a href="">데님 팬츠</a><br>
+                        <a href="">숏 팬츠</a><br>
+                        <a href="">코트 팬츠</a><br>
+                        <a href="">트레이닝/조거팬츠</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>ACC</P></a>
+                        <a href="">glasses</a><br>
+                        <a href="">bag</a><br>
+                        <a href="">cap</a><br>
+                        <a href="">etc.</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>SALE</P></a>
+                        <a href="">SPRING SALE</a><br>
+                        <a href="">SUMMER SALE</a><br>
+                        <a href="">FALL SALE</a><br>
+                        <a href=""> WINTER SALE</a>
+                    </div>
+                </div>
+
+
+                <!--히든메뉴 bottom-->
+                <div class="bot">
+                    <div class="category">
+                        <a href="" class="main"><P>COMMUNITY</P></a>
+                        <a href="">NOTICE</a><br>
+                        <a href="">Q&A</a><br>
+                        <a href="">REVIEW</a><br>
+                        <a href="">EVENT</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>MY PAGE</P></a>
+                        <a href="">관심상품</a><br>
+                        <a href="">주문조회</a><br>
+                        <a href="">정보수정</a><br>
+                        <a href="">적립금</a>
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>TODAY VIEW</P></a>
+                    </div>
+                    <div class="alone">
+                        최근본 상품 내역이 없습니다.
+                    </div>
+                    <div class="category">
+                        <a href="" class="main"><P>MORE ></P></a>
+                    </div>
+                    <div class="category">
+                       
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- 슬라이드 --> 
+    <div class="slide">
+        <!-- 슬라이드에서 넘어갈 사진 영역-->
+        <div class="gallery"></div>
+        <!-- 왼쪽으로 넘어갈 버튼-->       
+        <div class="left_btn"  onclick="prevImg()"></div>
+        <!-- 오른쪽으로 넘어갈 버튼-->
+        <div class="right_btn"  onclick="nextImg()"></div>
+    </div> 
+
+    <!--섹션-->
+    <section>
+         <!-- 베스트상품 전체 라인-->
+    <div class="container">
+        <!-- 제목영역-->
+        <div class="title">
+          <div><h2>BEST</h2></div>
+          <div><p>꾸준히 찾아주시는 인기상품</p></div>
+        </div>
+        <!-- 첫번째 사진-->
+        <div class="item_container">
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=618&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202208/c73acb536934e3f69dcf711d4d6c2545.gif">
+              </a>
+            </div>
+            <!-- 이미지 호버시에 나오는 상품 정보들-->
+            <div class="item_info">
+              <div class="info_1">Midnight logo MTM (4color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">51,000원</div>
+              <div class="info_4">
+                <div style="background: #FFA333;"></div>
+                <div style="background: #E6E1D4;"></div>
+                <div style="background: #A9A9A9;"></div>
+                <div style="background: #000082;"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 두번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=478&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202208/4f66e03b31ae6ec9692a7d02686d29d7.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Check hood shirt (2color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">54,000원</div>
+              <div class="info_4">
+                <div style="background: #000000"></div>
+                <div style="background: #c20F0A"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 세번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=423&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202207/0099d371292a5795d7324fce110b7963.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Volume hood cap crop Jp (2color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">66,000원</div>
+              <div class="info_4">
+                <div style="background: #000000"></div>
+                <div style="background: #56754C"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 네번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=601&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202208/98c8a5762ee7761122047678cd83737c.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">[인기] Popping candy knit (4color))</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">41,000원</div>
+              <div class="info_4">
+                <div style="background: #C0C0C0"></div>
+                <div style="background: #FF5A00"></div>
+                <div style="background: #8D068E"></div>
+                <div style="background: #000000"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 다섯번째 사진-->
+          <div>
+            <!-- 이미지영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=206&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202208/5dea87341d638450db94fd8d612ad4ce.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Heavy training set (3color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">69,000원</div>
+              <div class="info_4">
+                <div style="background: #050505;"></div>
+                <div style="background: #000000;"></div>
+                <div style="background: #CCCCCC"></div>
+                <div style="background: #E6E0CA"></div>
+                <div style="background: #E6DFCA"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 여섯번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=592&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202207/ca5687024cad8fe1af6cd2483d32a157.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Mint stitch cotton denim pants</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">49,000원</div>
+              <div class="info_4">
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 일곱번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭 시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=559&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202207/24f8deba4e56cee5da182c58bb9dbfbd.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Loki linen cardigan (4color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">48,000원</div>
+              <div class="info_4">
+                <div style="background: #EBDCC5"></div>
+                <div style="background: #C20F0A"></div>
+                <div style="background: #4BBFCC"></div>
+                <div style="background: #000000"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 여덟번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭 시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=457&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202208/c0c999b86afcccc2a3651476350b4996.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려 놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Collarless crack jacket (2color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">63,000원</div>
+              <div class="info_4">
+                <div style="background: #474747"></div>
+                <div style="background: #D7B170"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+          <!-- 아홉번째 사진-->
+          <div>
+            <!-- 이미지 영역-->
+            <div class="item_image">
+              <!-- 클릭 시 상세페이지 이동-->
+              <a href="https://deepingray.com/product/detail.html?product_no=413&cate_no=1&display_group=2">
+                <img src="https://deepingray.com/web/product/big/202207/f3b021d3b67ff9519405b250c88528b1.gif">
+              </a>
+            </div>
+            <!-- 이미지에 커서 올려놓으면 나오는 상품 정보-->
+            <div class="item_info">
+              <div class="info_1">Hood cap windbreak (2color)</div>
+              <div class="info_2">VIEW ITEM</div>
+              <div class="info_3">81,000원</div>
+              <div class="info_4">
+                <div style="background: #000000"></div>
+                <div style="background: #0000FD"></div>
+              </div>
+              <div class="info_5">
+                <img src="https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
+
+
+
+    
+    <!--푸터-->
+    <footer>
+        <!-- footer 윗부분 -->
+		<!-- footer 윗 왼쪽 영역 -->
+        <ul class="toes1">
+            <li class="AA">
+                <ul class="aa">
+                    <h2>INFORMATION </h2>
+                    <li>COMPANY : 딥인그레이(deepingray) / NAME : 이수현</li>
+                    <li>BUSINESS LICENSE : 849-71-00268</li>
+                    <li>ADDRESS : 28518 충청북도 청주시 상당구 대성로122번길 46-4 (대성동) 202호</li>
+                    <li>
+                      COMMERCE LICENSE : 제 2019-충북청주-1558호
+                       <a href="">[사업자정보확인]</a>
+                   </li>
+                   <li>CPO : 이수현 gogotngus007@naver.com</li>
+               <!-- footer 윗 중간 영역 -->
+			   </ul>
+               <ul class="bb">
+                    <h2>ACCOUNT</h2>
+                    <li>농협 312-0199-3619-61</li>
+                    <li>예금주 : 이수현</li>
+                </ul>
+				<!-- footer 윗 오른쪽 영역 -->
+                 <ul class="cc">
+                    <h2>SHOP MENU</h2>
+                    <li><a href=""> ABOUT</a></li>
+                    <li><a href="">GUIDE</a></li>
+                    <li><a href="">AGREEMENT</a></li>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- footer 아래 영역  -->
+        <div class="toes2">
+		<!-- footer 아래 왼쪽 영역  -->
+            <div class="Left">
+                Copyright © 
+                <span>DEEP IN GRAY</span>
+                . All Rights Reserved. Designed by 이츠피플 / Hosting by cafe24
+            </div>
+			<!-- footer 아래 오른쪽 영역  -->
+            <div class="Right">
+                <a href="https://iniweb.inicis.com/popup/common/popup_escrow_notice.jsp?mid=123456">
+                <div class="footerImg"></div>
+                <div>고객님의 안전한 결제를 위해 저희 쇼핑몰에서 가입한 PG사의 구매안전 에스크로 서비스를 이용하실 수 있습니다.</div>
+                </a>                
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+    <!--우측 사이드 메뉴-->
+	<div id="right_menu">
+			<div id="right_upper">
+				<div><!--회원 DB관련 창 아이콘 -->
+					<div><img id="member" src="./img/mem_btnR.png" onclick="login()"></div>
+				</div>
+				<div> <!--장바구니 아이콘 -->
+					<div id="shopper" onclick="shopper()"><span id="shopper_num">0</span></div>
+				</div>
+				<div> <!--검색바 아이콘 -->
+					<div><img id="search" src="./img/search_btnR.png" onclick="search()"></div>
+				</div>
+			</div>
+			<div id="blank"><!--사이 빈공간--></div>
+			<div id="right_lower">
+				<div> <!--인스타 연결 -->
+					<div><a href="https://www.instagram.com/deepingray/" target="_blank"><img src="./img/right_insta.png"></a></div>
+				</div>
+				<div> <!--네이버 톡톡 -->
+					<div><a href="https://talk.naver.com/ct/000000" target="_blank"><img src="./img/right_Ntalk.png"></a></div>
+				</div>
+				<div> <!--카카오 상담 -->
+					<div><a href="https://pf.kakao.com/000000/chat" target="_blank"><img src="./img/right_ch.png"></a></div>
+				</div>
+				<div>
+				<!-- 맨 위로 -->
+				<div id="upper" onclick="javascript:window.scrollTo(0,0)"></div></a>
+				</div>
+				<div>
+				<!-- 맨 아래로 -->
+				<div id="lower" onclick="javascript:window.scrollTo(0,document.body.scrollHeight)"></div></a>
+			</div>
+		</div>
+	<!--ID창-->
+	<div id="login_wrap">
+		<div>
+			<input class="border" id="login_id" type="text" placeholder="ID">
+		</div>
+		<div>
+			<input class="border" id="login_passwoard" type="password" placeholder="PW">
+		</div>
+		<div> <!--로그인 버튼 -->
+			<button class="login_button" onclick="login_check()">LOGIN</button>
+		</div>
+		<div id="text">
+			<a class="last">FIND ID</a> | <a class="last">FIND PW</a> | <a href="./joinus.html" class="last">JOIN US</a>
+		</div>
+		<br><br>
+		<button class="login_button" onclick="login2()">로그인 시 화면 확인 버튼</button>
+	</div>
+	<!-- 로그인 시 창 -->
+	<div id="login_wrap2">
+		<div style="text-align:center; margin-top:20px">고객님 반갑습니다 :)</div>
+		<br>
+		<button id="logout_button"> LOGOUT </button> <button id="mypage_button"> MYPAGE </button>
+	</div>
+	<!-- 장바구니 창 -->
+	<div id="shopping_wrap">
+		<span id="shopping_cart_content"> 장바구니가 비어있습니다 </span> <hr id="shopping_hr"> <button id="shopping_cart_btn"> <a class="cart_link" href="./cart_abroad.html"> 장바구니 이동</a></button>
+	</div>
+	<!--검색창-->
+	<div id="search_wrap">
+		<input id="search_border" type="text">
+		<div id="search_btn"></div>
+	</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+/* 전체 감싸는 div */
+ .main_layout{
+     width: 1200px;
+     margin: 0 auto;   
+ }
+ .main_layout .login_wrap{
+     width:720px;                  
+     margin: 0 auto;
+ }
+ 
+ /* 타이틀 */
+ .titleArea{
+     width: 1200px;
+     height: 121px;
+     text-align: center;
+     line-height: 121px;
+     text-decoration : underline;
+     text-underline-offset : 20px;
+     font-size: 16px;
+     color: #555555;
+     padding: 50px 0px 30px;
+ }
+
+ /* 메인 전체영역 */
+ form{
+     width: 1200px;
+     height: auto;
+ }
+
+ /* 회원가입 테이블 영역 */
+ .join_wrap{
+     width: 720px;
+     height: auto;
+     text-align: left;
+ }
+ table{
+     border-collapse: collapse;
+ }
+ tbody th, td{
+     border-bottom: 1px solid #e2e2e2;
+ }
+ tbody th{
+     width: 150px;
+     padding: 11px 0px 10px 0px;
+     font-size: 12px;
+     color: #353535;
+ }
+ tbody td{
+     width: 570px;
+     padding: 11px 0px 10px 0px;
+ }
+ .email_tr{
+     border-bottom: 1.2px solid #000000;
+ }
+ tbody input{
+     padding: 2px 4px 2px 20px;
+     background-color: #f3f3f3;
+     border: none;
+ }
+ #joinBox{
+     width: 267px;
+     height: 29px;
+ }
+ #phoneN{
+     width: 60px;
+     height: 29px;
+ }
+ #numberBox{
+     width: 74px;
+     height: 29px;
+ }
+ #emailBox{
+     width: 124px;
+     height: 29px;
+ }
+
+ /* 이용약관 영역 */
+ .allCheckbox{
+     width: 720px;
+     height: 52px;
+     padding: 15px 0px;
+     margin-top: 15px;
+ }
+ .allCheckbox p{
+     font-size: 12px;
+     color:#353535;
+     display: flex;
+     justify-content: left;
+     margin-top: 15px;
+ }
+ .allCheckbox p  input{
+     margin: 0px;
+ }
+ .allCheckbox strong{
+     margin-left: 10px;
+     margin-top: 2px;
+ }
+
+ /* 약관 선택박스 3개 */
+ .box_wrap {
+     width: 720px;
+     height: auto;
+ }
+ .box_wrap p{
+     font-size: 12px;
+     color:#353535;
+ }
+ .box_wrap a{
+    text-decoration: none;
+    color:rgb(44, 44, 44)
+ }
+ .box_inside{
+     padding: 20px 20px 10px;
+     border: 1px solid #bdbdbd;
+ }
+ .box1, .box2, .box3{
+     margin: 10px 0px;
+ }
+ .box1, .box2{
+     width: 720px;
+     height: auto;
+ }
+ .box3{
+     width: 720px;
+     height: auto;
+ }
+ .accordion{
+     font-size: 12px;
+     color: #222222;
+     padding-top: 10px;
+ }
+ /* 눌렀을 때 열리는 div 박스 */
+ #scroll_box1, #scroll_box2, #scroll_box3{
+    padding: 20px 0;
+    font-size: 11px;
+    line-height: 18px;
+    color: #555;
+    height: 150px;
+    overflow: auto;
+    border-top: 1px #ddd solid;
+    padding-bottom: 10px;
+}
+
+ /* 취소, 회원가입 버튼 영역*/
+ .btn_wrap{
+     width: 720px;
+     height: 62px;
+     text-align: center;
+     line-height: 62px;
+     padding: 10px 0px;
+ }
+ .btn_wrap button{
+     width: 172px;
+     height: 42px;
+     font-size: 11px;
+     border: none;
+ }
+ .btn_wrap .cancel_btn{
+     background-color: #ffffff;
+     border: 1px solid #bdbdbd;
+ }
+ .btn_wrap .join_btn{
+     background-color: #999999;
+     color: white;
+ }
+ .cancel_btn:hover{
+     border: 1px solid rgb(44, 44, 44);
+     transition: all 0.3s;
+ }
+ .join_btn:hover{
+     border: 1px solid rgb(44, 44, 44);
+     background-color: white;
+     color: black;
+     transition: all 0.3s;
+ }

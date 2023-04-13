@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 전체 가드라인 */
+/* text-align 대신 align-item으로 효과 주었음 */
+.container {
+  margin: 0 auto;
+  width: 1250px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 제목 영역 관련 css */
+.title {
+  text-align: center;
+}
+.title h2{
+  color: #222;
+}
+.title p{
+  color: #999;
+  font-size: 10px;
+}
+/* image , image hover 관련 css */
+/* 구글링 하던 도중 gap을 margin처럼 사용할 수 있으며,
+요새 실무에서 많이 쓰인다고 하여 gap을 사용하였습니다. */
+.item_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px ;
+}
+/* 부모 영역 설정 뒤, 아래에 자식 요소 설정하여
+css 주었습니다. [css 선택자 사용]*/
+.item_container > div {
+  width: 388px;
+  height: 480px;
+  position: relative;
+}
+.item_image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+/* 사진 관련 css */
+.item_image img{
+  width: 388px;
+  height: 480px;
+}
+/* 커서를 올려놓았을 때 불투명하게 보이는 효과 */
+.item_image:hover {
+  opacity: 0.1;
+}
+/* flex-direction:column; 은 아이템이 세로로 흐르게 만드는 css 효과
+위쪽에서 아래쪽으로 흐릅니다.*/
+.item_info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info_1 {
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: #555555;
+  font-weight: bold;
+}
+.info_2 {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  background-color: #2b2b2b;
+  color: white;
+}
+.info_3 {
+  font-size: 12px;
+  color: #555555;
+  font-weight: bold;
+}
+.info_4 {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  
+}
+/* info_4안에 들어가는 컬러칩스를 위해 효과를 주었습니다. */
+/* css 선택자 사용*/
+.info_4 > div {
+  width: 6px;
+  height: 6px;
+  border: 0.5px solid #E6E1D4;
+}

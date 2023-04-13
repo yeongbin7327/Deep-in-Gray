@@ -1,0 +1,221 @@
+		/* 로그인 창의 가장 겉 영역 */
+		#login_wrap {
+            width:325px;
+            height:230px;
+            border:1px solid rgb(182, 182, 182);
+            position: absolute;
+            right: 4vw;
+            bottom: 30vh;
+			background-color: white;
+            display: none;
+			}
+			
+		/* 로그인 완료 창의 가장 겉 영역 */	
+			#login_wrap2 {
+            width:325px;
+            height:130px;
+            border:1px solid rgb(182, 182, 182);
+            position: absolute;
+            right: 4vw;
+            bottom: 330px;
+			background-color: white;
+            display: none;
+			}
+			
+		/* 겸색 창의 가장 겉 영역 */	
+			#search_wrap{
+            width:325px;
+            height: 60px;
+            border:1px solid rgb(182, 182, 182);
+            position: absolute;
+            right: 4vw;
+            bottom: 270px;
+            background-color: white;
+            display: none;
+			}
+			
+		/* 로그인 창의 검색바 부분*/	
+			#search_border {
+            width:240px;
+            height:40px;
+            border:0px;
+            outline:0px;
+            background-color: #EEEBEE;
+            padding:0px 0px 0px 20px;
+            margin: 10px 0px 0px 10px;
+			}
+			
+		/* 로그인 창의 버튼 부분*/		
+			#search_btn {
+            width:40px;
+            height:40px;
+            background-image:url("./img/search_btnR.png");
+            background-size: cover;
+            background-position: cover;
+            background-color:#EEEBEE ;
+            margin: 10px 10px 10px 0px;
+			}
+			
+		/*input bar부분과 로그인 버튼의 높이와 여백 */
+			.border, .login_button {
+            height:40px;
+            margin:8px;
+			}
+			
+		/*input bar */	
+			.border{
+            width:280px;
+            border:0px;
+            outline:0px;
+            background-color: #EEEBEE;
+            padding:0px 0px 0px 20px;
+			}
+			
+		/*로그인 버튼 */		
+			.login_button {
+            width:305px;
+            background-color: black;
+            color: #EEEBEE;
+			}
+			
+			/*	로그인 버튼 아래 링크 이동 */
+			.last {
+            font-size: smaller;
+            padding: 10px;
+			text-decoration:none;
+			color:black;
+			}	
+			
+		/* 로그인 버튼 아래 링크 영역 */
+			#text {
+            text-align: center;
+			}	
+			
+		/* 로그아웃 버튼과 마이페이지 버튼에서 겹치는 css */	
+			#logout_button, #mypage_button {
+            width:150px;
+            height: 50px;
+            border-radius: 5%;
+            margin: 3px;
+			}
+			
+		/*로그아웃 버튼 */	
+			#logout_button {
+            background-color: black;
+            color: #EEEBEE;
+            margin-left: 7px;
+			}
+			
+		/*마이페이지 버튼과 쇼핑카트 버튼에서 겹치는 부분 */	
+			#mypage_button, #shopping_cart_btn {
+            border: none;
+            background-color:#EEEBEE ;
+			}
+			
+		/* 장바구니 영역 가장 겉 부분 */	
+			#shopping_wrap {
+            width:325px;
+            height:230px;
+            border: 1px solid gray;
+            position:absolute;
+            right: 4vw;
+            bottom: 30vh;
+			background-color: white;
+            display: none;
+			}
+			
+		/* 장바구니 물건 담기는 곳 */	
+			#shopping_cart_content {
+            width:325px;
+            height:100px;
+            font-size: small;
+            align-items: center;
+            text-align: center;
+            padding:50px 0px 0px 0px;
+            color:gray;
+            display: block;
+			}
+			
+		/* 물건 담기는 곳과 장바구니 이동 부분 분리 하는 선 */	
+			#shopping_hr {width: 85%;}
+			
+		/*장바구니 이동버튼 */	
+			#shopping_cart_btn {
+            display: block;
+            width: 280px;
+            height: 50px;
+            margin: auto;
+			}
+		
+		/* 사이드 메뉴 본문 부분 */
+			#right_menu{
+            width:30px;
+            position:fixed;
+            right: 3vw;
+            bottom: 8vh;
+			}
+			
+		 /* 사이드 메뉴 장바구니 아이콘 */	
+			#shopper {
+            width: 33px;
+            height: 33px;
+            background-image:url('./img/shopper_btnR.png') ;
+            background-position: center;
+            text-align: center;
+            line-height: 40px;
+			background-size:cover;
+            background-repeat:no-repeat;
+			}
+		/* 위와 아래로 나눠지는 빈 구간 */	
+			#blank{
+            height: 10vh;
+			}	
+		
+		/* 아이콘들 전체 스타일 */
+			img {
+            width: 25px;
+            height: 25px;
+            padding:10px;
+			}
+			
+		/*맨 위로 올라가기 아이콘 */
+			#upper {
+            width: 33px;
+            height: 30px;
+            background-image:url("./img/upper_btnR.png") ;
+			background-size:cover;
+            background-position: center;
+            background-repeat:no-repeat;
+			}
+		/*맨 아래로 내려가기 아이콘 */
+			#lower{
+            width: 33px;
+            height: 30px;
+            background-image:url("./img/lower_btnR.png") ;
+			background-size:cover;
+            background-position: center;
+            background-repeat:no-repeat;
+			}
+		/* 맨 위로 올라가기 버튼에 마우스 hover */
+			#upper:hover {
+            width: 33px;
+            height: 33px;
+            background-image:url("./img/upper_hover.png") ;
+			background-size:cover;
+            background-position: center;
+            background-repeat:no-repeat;
+			}
+		/* 맨 아래로 내려가기 버튼에 마우스 hover */	
+			#lower:hover{
+            width: 33px;
+            height: 33px;
+            background-image:url("./img/lower_hover.png") ;
+			background-size:cover;
+            background-position: center;
+            background-repeat:no-repeat;
+			}
+            .cart_link{
+                text-decoration: none;
+                color: black;
+
+            }

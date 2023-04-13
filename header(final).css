@@ -1,0 +1,176 @@
+ul, li{
+    padding: 0px;
+    margin: 0px;
+}
+.title {
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.title a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+    font-size: 35px;
+}
+.title a:hover{
+    color: gray ;
+    
+    
+
+}
+.nav{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.menu_wrap{
+    height: 60px;
+    margin:  auto;
+    display: flex;
+    list-style: none;
+    padding: 20px 230px ;
+    
+    
+}
+.menu > a, .myp > a{
+    text-decoration: none;
+    line-height: 60px;
+    color: rgb(39, 39, 39);
+    font-size: 12px;
+}
+
+.menu{            
+    width: 70px;
+    margin: auto;
+
+    
+}
+.myp{
+    width: 100px;
+    margin-left: 60px;
+}
+
+.menu ul, .myp ul{
+    display: none;           
+}
+
+.menu:hover ul, .myp:hover ul {   
+    list-style: none;
+    display: block;        
+    border: 0.5px solid gray;     
+    width: 100px;
+    background-color: white;
+    
+}
+.menu:hover ul li{
+    width: 108px;
+    
+}
+
+.buger{
+    display:block;
+    width: 60px;
+    height: 40px;
+    cursor:pointer;
+    margin-top: 25px;
+    margin-left: 5px;
+    
+}
+.ham{
+    display:block;
+    height:2px;
+    width:18px;
+    border-radius:30px;
+    background: black;
+    margin:3px ;
+}
+
+.menu ul li a, .myp ul li a {
+    font-size: 10px;    
+    color: gray ;
+    text-decoration: none;
+    margin: 15px 10px 15px 10px ;
+    display: block;
+}
+.hidden_wrap{
+    width: 1200px;
+   
+    
+    display: none;
+    opacity: none; 
+    z-index: 0;
+    margin: auto;
+    margin-top: 100px
+
+}
+.hidden_munu{
+    border-radius: 5px;
+    height: 450px;
+    padding: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+
+}
+.close{
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.close img{
+    width: 20px;
+    height: 20px;
+}
+
+.top{
+    text-align: center;
+    height: 40px ;
+    
+}
+.top img{
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+}
+.mid{
+    display: flex;
+}
+.category{
+    width: 180px ;
+}
+.category a{
+    color: gray ;
+    text-decoration: none;
+    display: block;
+    font-size: 11px;   
+}
+.main>p{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.main>p:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width:100px;
+    text-align: center;
+}
+
+.bot{
+    display: flex;
+    margin-top:50px ;
+}
+.alone{
+    font-size: 13px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: -50px;
+    color: gray ;
+}

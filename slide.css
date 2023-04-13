@@ -1,0 +1,59 @@
+/* 슬라이드 전체 영역 css*/
+/* 부모 영역 줬음*/
+.slide{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+/* 슬라이더를 굳이 넘기지 않아도 기본적으로 떠있는 사진*/
+.gallery{
+    width: 1200px;
+    height: 700px;           
+    background-image: url("./img/slideimg.jpeg");
+    background-size: cover;
+    background-position: center;
+} 
+/* 왼쪽으로 넘어가게 만드는 버튼 css*/
+.left_btn{
+    width: 40px;
+    height: 70px;     
+    background-image: url("./img/left_control.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top : 300px;
+    left: 10px;
+}
+/* 오른쪽으로 넘어가게 만드는 버튼 css*/
+.right_btn{
+    width: 40px;
+    height: 77px;
+    background-image: url("./img/right_control.png");    
+    background-position: center;
+    background-size: cover;     
+    position: absolute;
+    top:300px;
+    right: 10px; 
+}
+/* 왼쪽 버튼 hover 효과*/
+.left_btn:hover {
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    background-image: url("./img/left_hover.png");
+    background-position: center;
+    background-size: cover;
+    top: 300px;
+    left: 10px;
+}
+/* 오른쪽 버튼 hover 효과*/
+.right_btn:hover{
+    position: absolute;
+    width: 40px;
+    height: 77px; 
+    background-image: url("./img/right_hover.png");
+    background-position: center;
+    background-size: cover;
+    top: 300px;
+    right: 10px;
+}
