@@ -7,5 +7,4 @@ https://user-images.githubusercontent.com/114971703/232536479-80204231-2130-4ebd
 
 
 
-Uploading 제목 없는 동영상 - Clipchamp로 제작.mp4…
-
+https://user-images.githubusercontent.com/114971703/232541637-e0620b04-6fc7-468d-8578-18dd98b3ad32.mp4
